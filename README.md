@@ -15,6 +15,6 @@ Similarly, the Mechanical models along with their working demo can be found [her
 
 ### Presented by: Team ROTF, Indian Institute of Technology Roorkee.
 ### Team Members:
-* Agrim Agarwal
+* Agrim Agrawal
 * Pradnesh Chavan
 * Vansh Goyal
