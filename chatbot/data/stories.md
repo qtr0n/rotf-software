@@ -1,0 +1,120 @@
+## say goodbye
+* goodbye
+  - utter_goodbye
+
+## greet_tell_cuisine_tell_2_dishes
+
+* greet
+    - utter_greet
+* mood_great
+    - utter_assist
+* telling_cuisine{"cuisine":"chinese"}
+    - utter_ask_cuisine
+    - slot{"cuisine":"Indian"}
+* telling_dish
+    - slot{"dish":"pasta"}
+    - utter_ask_number 
+* telling_number_of_dishes
+    - slot{"number":"2"}
+    - utter_affirm_info
+* affirm
+    - utter_ask_dish
+* telling_dish
+    - slot{"dish":"pasta"}
+    - utter_ask_number     
+* telling_number_of_dishes
+    - slot{"number":"2"}
+    - utter_affirm_info
+* deny
+    - utter_goodbye
+
+## greet_tell_cuisine_tell_1_dish
+
+* greet
+    - utter_greet
+* mood_great
+    - utter_assist
+* telling_cuisine
+    - utter_ask_cuisine
+    - slot{"cuisine":"Indian"}
+* telling_dish
+    - slot{"dish":"pasta"}
+    - utter_ask_number 
+* telling_number_of_dishes
+    - slot{"number":"2"}
+    - utter_affirm_info
+* deny
+    - utter_goodbye
+
+## greet_do_not_tell_cuisine_tell_1_dish_ask_suggestion
+
+* greet
+    - utter_greet
+* mood_great
+    - utter_assist
+* deny
+    - utter_ask_suggestions_permisson
+* affirm
+    - utter_ask_suggestions  
+* telling_dish
+    - slot{"dish":"pasta"}
+    - utter_ask_number 
+* telling_number_of_dishes
+    - slot{"number":"2"}
+    - utter_affirm_info
+* deny
+    - utter_goodbye    
+
+## greet_do_not_tell_cuisine_tell_2_dish_ask_suggestion
+
+* greet
+    - utter_greet
+* mood_great
+    - utter_assist
+* deny
+    - utter_ask_suggestions_permisson
+* affirm
+    - utter_ask_suggestions  
+* telling_dish{"dish":"pasta"}
+    - slot{"dish":"pasta"}
+    - utter_ask_number 
+* telling_number_of_dishes
+    - slot{"number":"2"}
+    - utter_affirm_info
+* affirm
+    - utter_ask_dish
+* telling_dish{"dish":"pasta"}
+    - slot{"dish":"pasta"}
+    - utter_ask_number     
+* telling_number_of_dishes
+    - slot{"number":"2"}
+    - utter_affirm_info    
+* deny
+    - utter_goodbye   
+
+## greet_do_not_tell_cuisine_tell_2_dish_Do_not_ask_suggestion
+
+* greet
+    - utter_greet
+* mood_great
+    - utter_assist
+* deny
+    - utter_ask_suggestions_permisson
+* deny
+    - utter_ask_cuisine 
+* telling_dish{"dish":"pasta"}
+    - slot{"dish":"pasta"}
+    - utter_ask_number 
+* telling_number_of_dishes
+    - slot{"number":"2"}
+    - utter_affirm_info
+* affirm
+    - utter_ask_dish
+* telling_dish{"dish":"pasta"}
+    - slot{"dish":"pasta"}
+    - utter_ask_number     
+* telling_number_of_dishes
+    - slot{"number":"2"}
+    - utter_affirm_info    
+* deny
+    - utter_goodbye   
