@@ -30,3 +30,9 @@ Here are some images of the predictions of different types of waste:
 <div align="center">
   <img src="metal.png"><br><br>
 </div>
+<div align="center">
+  <img src="paper.png"><br><br>
+</div>
+<div align="center">
+  <img src="cardboard.png"><br><br>
+</div>
