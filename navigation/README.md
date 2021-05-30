@@ -12,7 +12,7 @@ MATLAB scripts are used to control the bot, which sends the occupancy grid matri
 <img src="https://github.com/theobscuredev/rotf-software/blob/main/navigation/assets/system_overview.png">
 </p>
 
-[Explanation of the PSO Algorithm](https://github.com/theobscuredev/rotf-software/blob/main/navigation/README.md).
+[Explanation of the PSO Algorithm](https://github.com/theobscuredev/rotf-software/blob/main/navigation/pso/README.md).
 
 Video Demonstrations:
 [Mapping](https://drive.google.com/file/d/1SO8MXUNIVMJc8czz6t7-7wbhuiYi155K/view?usp=sharing)
