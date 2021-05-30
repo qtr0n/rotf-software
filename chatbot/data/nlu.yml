@@ -1,0 +1,25 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+- intent: mood_great
+  examples: |
+    - good
+- intent: telling_cuisine
+  examples: |
+    - [italian](cuisine)
+- intent: telling_dish
+  examples: |
+    - pasta
+    - pizza
+- intent: telling_number_of_dishes
+  examples: |
+    - [3](number)
+    - [2](number)
+- intent: affirm
+  examples: |
+    - yes
+- intent: deny
+  examples: |
+    - no

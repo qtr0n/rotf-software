@@ -1,0 +1,284 @@
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+- thanks
+- thanks a lot
+- yes thanks a lot
+- yes it helped a lot..thanks
+- yes it did,thanks a lot
+- yup thanks
+- yes thanks
+- yes it did
+- na
+- its ok
+- yes indeed
+
+## intent:deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+- i dont know about my location
+- i am not sure of my location
+- i dont know
+- i am new here
+- i dont know what exactly this place is
+- no  idea
+- not sure
+- can you help me with location i am new here
+- nopes
+- i dont know the location
+- i am not sure of my location yet
+- i am not sure
+- i am not sure about it
+- i am not sure actually
+- actually i am new here so i dont know location
+- please help me without cuisine
+- no idea
+- not sure about my cuisine
+- dont know about cuisine
+- i dont have any idea
+- no idea about that
+- no idea about it
+- i am not sure about my location
+- actually i really dont know i am new here
+- actually i really don't know please help withut location
+- i am new here i dont know location yet
+- i really dont know
+- i dont know my location
+- dont know
+- not sure actualy
+- i am not sure about cuisine i am fine with anything
+- i am not sure about cuisine
+- i am not sure...
+- i am not sure about the location
+- i am really sorry
+- i dont know actually i am new
+- i dont know yet
+- sjkadbas
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+- bbye
+- bye see you
+- bbye take care
+- bye tc
+- bye take care see you soon
+- bye see you soon
+- bbye nice talking to you
+- bye talk to you later
+- bye see you soon
+- bbye talk to you later
+- bye meet you soon
+- bbye meet you soon
+- yes thank you
+
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- hey are you there
+- hey bot
+- hi bot are you there
+- hii
+- hellooo
+- hey how are you
+- hey i hope you are doing good
+- hi bot
+- hey dude
+- hello bot
+- hi wassup
+- hi whatsup
+- hey wassup
+- hey whatsup
+- i hope you are doing great
+- hey bot how are you
+- hello how are you
+
+## intent:mood_great
+- perfect
+- very good
+- great
+- Nice
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+- awesome
+- i am fine
+- i am great
+- fine
+- iam fine
+- i am good
+- i am doing great
+- i am great what about you
+- good
+- i m fine
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+
+## intent:dishes_suggestion
+- please give me some suggestions
+- Give me suggestions
+- Can you give me any suggestions
+- i am looking for some suggestions
+- get me some suggestions
+- looking for some suggestions
+- give me some suggestions please
+- hey i am looking for some suggestions
+- looking for some suggestions
+- please provide me a list of suggestions
+- looking for some food points
+- i am hungry
+- tell me some suggestions
+- provide me some suggestions
+- hey can you help me with some suggestions
+- please help me with some suggestions
+
+## intent:telling_cuisine
+- i would prefer to eat [mexican](cuisine)
+- i would love to eat [Turkish](cuisine)
+- i would like to have [chinese](cuisine) food
+- i would love to eat [mexican](cuisine) food
+- i would like to eat [Spanish](cuisine)
+- please provide me [north indian](cuisine) food
+- please provide me [italian](cuisine) food
+- please give me [mexican](cuisine) food
+- please give me [italian](cuisine) food
+- please give me some [thai](cuisine) food
+- i will eat [north indian](cuisine) food
+- i would love to eat [south indian](cuisine) food
+- i will prefer [south indian](cuisine) food
+- i will prefer to have [north indian](cuisine)
+- i will eat [chinese](cuisine)
+- i would love to eat [arabian](cuisine) food
+- my choice will be [arabian](cuisine)
+- i would love to eat [mexican](cuisine)
+- i would like to have [Japanese](cuisine)
+- i would like to eat [French](cuisine)
+- i would like to have [chinese](cuisine)
+- i will prefer [chinese](cuisine) food
+- i need [italian](cuisine) food
+- i would like to eat [italian](cuisine) food
+- i will prefer [italian](cuisine) food
+- i would love to eat [Moroccan](cuisine) food
+- i would love to eat [chinese](cuisine)
+- i would love to eat [north indian](cuisine) food
+- [italian](cuisine)
+- [chinese](cuisine)
+- thai
+- i will prefer to eat [chinese](cuisine) food
+- i would love to eat [italian](cuisine) food
+- african
+- australian
+- i will prefer australian then
+- i will prefer australian
+- i want to eat [Indonesian](cuisine) food
+- [italian](cuisine) please
+- ohk i would love to eat [italian](cuisine) food
+- ok i would like to eat some [Turkish](cuisine) food
+
+## intent:telling_number_of_dishes
+- [1](number)
+- [2](number)
+- [3](number)
+- [4](number)
+- [5](number)
+- [6](number)
+- [7](number)
+- [8](number)
+- i would like [1](number)
+- i would like [2](number) of them
+- i would like [3](number) of them
+- i would like [4](number) of them
+- i would like [5](number) of them
+- i would like [6](number) of them
+- i would like [7](number) of them
+- i would like [8](number) of them
+- [1](number) would be sufficient
+- two would be sufficient
+- three would be sufficient
+- [4](number) would be sufficient
+- 5 would be sufficient
+- 6 would be sufficient
+- 7 would be sufficient
+- give me [1](number)
+- give me 2
+- i want 1
+- i want 2
+- one
+- two
+- three
+- four
+
+## intent:telling_dish
+- i am looking [coconutdish](dish)
+- i am looking for [kheer](dish)
+- i am looking for some [mango](dish)  
+- looking for [Dosa](dish)
+- will try [mancuhrian](dish)
+- would like a [chapati](dish)
+- i would like to eat [pasta](dish)
+- i would love to eat [macroni](dish)
+- i would love to eat [sandwich](dish)
+- will eat [chicken](dish)
+- will eat [chowmin](dish)
+- would like to eat [burger](dish)
+- i will prefer to eat [cake](dish)
+- i need [water](dish)
+- i will need some [paneer](dish)
+- i would love to eat [dalmakhani](dish) 
+- i want to eat [cholebhature](dish)
+- i am looking to eat [gulabjamun](dish)
+- i am looking to eat some [crackers](dish)
+- i am looking to eat [panipuri](dish)
+- i would like to eat [masaladosa](dish)
+- i am looking to drink [oreo shake](dish)
+- i am looking for [biscuits](dish)
+- i am looking to eat [momos](dish)
+- i am looking to eat some [bhelpuri](dish)
+- i am looking for some [naan](dish)
+- i am looking to eat something [spicy](dish)
+- i am looking for [sizller](dish)
+- i am looking to eat [kofta](dish)
+- i would like to eat [pastry](dish)
+- i would like to eat [pizza](dish)
+- [burger](dish)
+- [frenchfries](dish)
+- [BharwaBhindi](dish)
+- [PindiChana](dish)
+- [MasalaChai](dish)
+- [Samosa](dish)
+- [Kulche](dish)
+- [Jalebi](dish)
+- [Dhokla](dish)
+- [Undhiyo](dish)
+- [PooranPoli](dish)
+- [AlooParantha](dish)
+- [GondKiBarfi](dish)
+- [Panjiri](dish)
+- [Ghewar](dish)
+- [GunturIdli](dish)
+- [Aamras](dish)
