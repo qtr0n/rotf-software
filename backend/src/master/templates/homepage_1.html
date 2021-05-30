@@ -1,0 +1,14 @@
+<!-- homepage.html -->
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Order</title>
+</head>
+<body>
+    <h1>Confirm your final order</h1>
+    <ul>
+    {% for food in order %}
+        <li>{{ foodk.title }}</li>
+    {% endfor %}
+    </ul>
+</body>

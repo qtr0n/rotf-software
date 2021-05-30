@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+enum FoodCategory {
+    ITALIAN = 0;
+    SOUTH_INDIAN = 1;
+    CHINESE = 2;
+    NORTH_INDIAN = 3;
+    
+}
+
+message OrderRequest {
+    int32 user_id = 1;
+    FoodCategory category = 2;
+    int32 max_results = 3;
+}
+
+message FoodOrder {
+    int32 id = 1;
+    string title = 2;
+}
+
+message OrderResponse {
+    repeated FoodRequest requests = 1;
+}
+
+service Orders {
+    rpc Recommend (OrderRequest) returns (OrderResponse);
+}
