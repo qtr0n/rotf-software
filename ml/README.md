@@ -10,7 +10,7 @@ This dataset is augmented for the training of the model. The original dataset co
 </div>
 
 The original dataset is not evenly distributed. There are 594 images labelled Paper, 501 images labelled Glass, 482 images labelled Plastic, 410 images labelled Metal, 403 images labelled Cardboard and 137 images labelled trash. We have augmented images using torchvision.transforms, which helps in reducing the chances of overfitting or the inability to generalize on new data.
-This kernel uses images of size 256x256 pixels after augmentation. For our purpose, we have used 1593 images for training, 176 images for validation and 758 images for testing.
+This kernel uses images of size 256*256 pixels after augmentation. For our purpose, we have used 1593 images for training, 176 images for validation and 758 images for testing.
 
 The model is trained with images randomly selected from the training set. Multiple sets of hyper- parameters were traversed and the optimal setting was chosen, with the epoch number of 8. The model has achieved an validation accuracy of around 95%. Figures show the accuracy over epochs curves, and the training loss and validation loss over epochs curve.
 <div align="center">
