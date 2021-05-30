@@ -64,3 +64,11 @@ You can also train your own model
 - CLI-2
 -- rasa shell
 ```
+### [Examples images](https://github.com/theobscuredev/rotf-software/tree/main/chatbot/Assets/Images) from our training:
+<p float="center">
+  <img src="https://github.com/theobscuredev/rotf-software/blob/main/chatbot/Assets/Images/A3.PNG" width="400" height="250" />
+  <img src="https://github.com/theobscuredev/rotf-software/blob/main/chatbot/Assets/Images/A4.PNG" width="400" height="250" />
+  <img src="https://github.com/theobscuredev/rotf-software/blob/main/chatbot/Assets/Images/A5.PNG" width="400" height="250" /> 
+</p>
+
+A short video can be viewed [here](https://github.com/theobscuredev/rotf-software/tree/main/chatbot/Assets/Videos)
