@@ -2,7 +2,7 @@
 We envision a system in which autonomous mobile robots robustly perform service tasks in indoor environments. By splitting these tasks into proper scheduling agents and employing Linear Programming Optimization on each of the constraints, we aim to implement a robust scheduling algorithm as proposed in [this paper](http://www.cs.cmu.edu/~mmv/papers/11aaaiw-brian.pdf) with the following User-to-Robot Architecture: 
 
 <p align="center">
-<img src="https://github.com/theobscuredev/rotf-software/blob/main/navigation/assets/PSO_Setup1_Run1.png">
+<img src="https://github.com/theobscuredev/rotf-software/blob/main/task-scheduling/assets/UMR.PNG">
 </p>
 
 Segregating the tasks into the following agents enables a flexible scheduling:
