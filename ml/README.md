@@ -21,12 +21,12 @@ The model is trained with images randomly selected from the training set. Multip
 </div>
 
 Here are some images of the predictions of different types of waste:
-<div>
+<div align="center">
   <img src="glass.png"><br><br>
 </div>
-<div>
+<div align="center">
   <img src="plastic.png"><br><br>
 </div>
-<div>
+<div align="center">
   <img src="metal.png"><br><br>
 </div>
