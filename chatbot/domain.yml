@@ -1,0 +1,69 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- deny
+- telling_number_of_dishes
+- affirm
+- mood_great
+- greet
+- telling_cuisine
+- telling_dish
+- goodbye
+- mood_unhappy
+- dishes_suggestion
+entities:
+- cuisine
+- dish
+- number
+slots:
+  cuisine:
+    type: text
+  dish:
+    type: text
+  number:
+    type: text
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_assist:
+  - text: Great! which cuisine would you like to order?
+  utter_ask_dish:
+  - text: Which dish would you like?
+  utter_ask_cuisine:
+  - text: Which dish would you like?
+  utter_ask_number:
+  - text: Please share the quantity of the dish
+  utter_affirm_info:
+  - text: Thanks, Would you like to order another dish?
+  utter_ask_suggestions_permisson:
+  - text: Do you want suggestions?
+  utter_ask_suggestions:
+  - text: I would recommend our Red Sauce Pasta and Thai sizzler. Please enter the your choice. 
+  utter_goodbye:
+  - text: Thanks, Bye!
+  utter_itsok:
+  - text: It's completely fine ,i will try to fetch all types of restaurants.Choose among them
+  utter_enter_cuisine_again:
+  - text: Sorry we couldn't find any {cuisine} cuisine in {location}. Would you like to check some other cuisine?
+  utter_nosuch_cuisine_all_restaurants:
+  - text: We dint find any such cuisine that you are looking for.We will help you by providing all the avaiable restaurants.
+actions:
+- utter_affirm_info
+- utter_ask_cuisine
+- utter_ask_suggestions_permisson
+- utter_ask_suggestions
+- utter_ask_dish
+- utter_ask_number
+- utter_assist
+- utter_did_that_help
+- utter_enter_cuisine_again
+- utter_goodbye
+- utter_greet
+- utter_itsok
+- utter_nosuch_cuisine_all_restaurants
+- action_set_dish
+- action_set_number
