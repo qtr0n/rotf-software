@@ -1,6 +1,4 @@
-# Restaurant of the Future(ROTF) 
-## Our Submission for the Prototype Building Phase of [HackOn with Amazon 2021](https://hackon-with-amazon.hackerearth.com/).
-### Software Stack: AI & Robotics
+
 ## Chatbot Using Rasa Framework
 
 
@@ -72,3 +70,12 @@ You can also train your own model
 </p>
 
 A short video can be viewed [here](https://github.com/theobscuredev/rotf-software/tree/main/chatbot/Assets/Videos)
+
+### Connecting Chatbot to Broker server
+
+Our chat bot consists of Entities and Slots. Entities are those pieces of information we want to to extract from our conversation and Slots are the variables we use to store them. In this chatbot we have used:
+* Cuisine
+* Dish
+* Number of a particular dish
+
+as entities and slots. We can easily pass these values to the broker server using python commands.
