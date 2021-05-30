@@ -1,7 +1,7 @@
 # Garbage Segregation
 Our bot can identify and segregate waste in 6 different categories namely cardboard, glass, paper, metal, plastic and trash using Residual Networks in PyTorch. It uses transfer learning from a pre-trained Resnet- 50 model to generate a model which is capable of classifying images of individual waste objects into the mentioned categories.
 Resnet- 50 model is pre-trained on ImageNet dataset images with a size of 256 x 256 and classified into 1000 classes.
-The model is trained on garbage-classification dataset.
+The model is trained on [garbage-classification dataset](https://www.kaggle.com/asdasdasasdas/garbage-classification).
 
 ## Garbage Classification Dataset
 This dataset is augmented for the training of the model. The original dataset contains 2527 RGB waste images of size 512*384 pixels. Each image is taken under these conditions: object being located at the center, with white background, common indoor lighting condition and no occlusion shadow. The images are labeled with 6 categories (paper, glass, trash, metal, plastic, cardboard). Figure shows sample waste images from the original dataset representing each class:
